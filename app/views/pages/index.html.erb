@@ -1,0 +1,34 @@
+
+<div id="wrapper">
+	<div id="leftContainer">
+		<%= image_tag("phone-medium.png") %>
+	</div>
+	<!--end leftContainer-->
+	<div id="rightContainer">
+		<div id="social">
+			<span class='st_facebook_large' displayText='Facebook'><%= content_tag(:a, fa_icon("facebook a", text: ""), href: href="http://facebook.com/") %></span>
+			<span class='st_facebook_large' displayText='Twitter'><%= content_tag(:a, fa_icon("twitter a", text: ""), href: href="http://twitter.com/") %></span>
+			<span class='st_facebook_large' displayText='Pinterest'><%= content_tag(:a, fa_icon("pinterest a", text: ""), href: href="http://pinterest.com/") %></span>
+		</div>
+		<div id="logo"><%= image_tag("logo-550w.png") %></div>
+
+		<!--START FORM-->
+		<p class="blurb">
+		Easily delegate chores, create shopping lists, keep track of bills, plan shared events in the calendar and send instant messages with the new Roomease app. Our "At Home" feature gives you the ability to see who's home for those unforseen emergencies. Roomease makes everyday living with roommates simple!
+		</p>
+		<div id="mc_embed_signup">
+			<form action="http://roomeaseapp.us3.list-manage.com/subscribe/post?u=5514388c761bb408fbaf24e31&amp;id=f33dfa7c23" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+				<input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="please enter your email address" required>
+				<!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+				<div style="position: absolute; left: -5000px;">
+					<input type="text" name="b_5514388c761bb408fbaf24e31_f33dfa7c23" value="">
+				</div>
+				<div class="clear" style="text-align:center; margin-top:10px;">
+					<input type="submit" value="Submit" name="subscribe" id="mc-embedded-subscribe" class="smooth-btn">
+				</div>
+			</form>
+		</div>
+		<!--End mc_embed_signup-->
+		<!--end rightContainer-->
+	</div>
+</div>
