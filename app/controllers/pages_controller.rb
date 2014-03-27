@@ -2,6 +2,9 @@ class PagesController < ApplicationController
   def index
   end
 
-  def review
+  def subscribe
+  	logger.debug "Posting email"
   end
+
+
 end

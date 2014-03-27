@@ -36,6 +36,7 @@ GEM
       execjs
     coffee-script-source (1.7.0)
     erubis (2.7.0)
+    excon (0.32.1)
     execjs (2.0.2)
     font-awesome-rails (4.0.3.1)
       railties (>= 3.2, < 5.0)
@@ -51,6 +52,9 @@ GEM
     mail (2.5.4)
       mime-types (~> 1.16)
       treetop (~> 1.4.8)
+    mailchimp-api (2.0.4)
+      excon (>= 0.16.0)
+      json (>= 1.7.7)
     mime-types (1.25.1)
     minitest (4.7.5)
     multi_json (1.9.2)
@@ -121,6 +125,7 @@ DEPENDENCIES
   font-awesome-rails
   jbuilder (~> 1.2)
   jquery-rails
+  mailchimp-api (~> 2.0.4)
   pg (= 0.15.1)
   rails (= 4.0.0)
   rails_12factor (= 0.0.2)

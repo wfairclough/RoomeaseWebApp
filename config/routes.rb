@@ -1,7 +1,7 @@
 RoomeaseApp::Application.routes.draw do
 
   get "index", to: 'pages#index'
-  get "review", to: 'pages#review'
+  post "index", to: 'pages#subscribe'
 
 
   # The priority is based upon order of creation: first created -> highest priority.
